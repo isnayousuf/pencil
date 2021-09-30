@@ -1,0 +1,60 @@
+.container{
+    width: 80vw;
+    height: 40rem;
+    background-color: blanchedalmond;
+}
+.mid{
+    width: 25rem;
+    height: 2rem;
+    border: 2px solid black;
+    position: relative;
+    top: 40%;
+    left: 40%;
+    background: repeating-linear-gradient( maroon, maroon 5px, black 5px, black 10px);
+}
+.cap{
+    width: 2.5rem;
+    height: 2rem;
+    border: 2px solid black;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    position: relative;
+    left: 78%;
+    top: 34.4%;
+    background: linear-gradient(black,rgb(17, 15, 15),black,rgb(17, 15,15), black,rgb(17, 15, 15),black)
+    /* background:linear-gradient( #bf9a47 0%, #ffe233 25%, #c7801d 50%, #ffe233 75%, #bf9a47 100%); */
+}
+.bottom{
+    width: 2.5rem;
+    
+    border: 2px solid black;
+    transform: rotateZ(-23deg);
+    position: relative;
+    left: 36.1%;
+    top: 30.2%;
+
+}
+.bottom2{
+    width: 2.5rem;
+    
+    border: 2px solid black;
+    transform: rotateZ(20deg);
+    position: relative;
+    left: 36.1%;
+    top: 31.95%;
+
+}
+.nib{
+    width: 0.5rem;
+    height: 0.3rem;
+    border: 2px solid black;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    background-color: black;
+    position: relative;
+    top:29.7%;
+    left:37%;
+    z-index: 2;
+
+
+}
